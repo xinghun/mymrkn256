@@ -246,7 +246,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("Cursor", "708090", "f0e68c", "")
     "CursorIM
     call <SID>X("CursorColumn", "", "333333", "none")
-    call <SID>X("CursorLine", "", "333333", "underline")
+    call <SID>X("CursorLine", "", "333333", "none")
     "Directory
     "DiffAdd
     "DiffChange
@@ -293,7 +293,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("Operator", "ff00ff", "", "")
     call <SID>X("Conditional", "ff6633", "", "bold")
     call <SID>X("Repeat", "66ff66", "", "bold")
-    call <SID>X("Function", "9999ff", "", "underline")
+    call <SID>X("Function", "9999ff", "", "none")
     call <SID>X("Delimiter", "99cccc", "", "bold")
     "Underlined
     call <SID>X("Ignore", "666666", "", "")
