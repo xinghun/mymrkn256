@@ -247,12 +247,18 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     "CursorIM
     call <SID>X("CursorColumn", "", "333333", "none")
     call <SID>X("CursorLine", "", "333333", "none")
+    call <SID>X("CursorLineNr", "", "333333", "none")
     "Directory
     "DiffAdd
     "DiffChange
     "DiffDelete
     "DiffText
     "ErrorMsg
+    call <SID>X("DiffAdd", "262626", "00cc7f", "none")
+    call <SID>X("DiffChange", "262626", "0087af", "none")
+    call <SID>X("DiffDelete", "262626", "ffffff", "none")
+    call <SID>X("DiffText", "262626", "8b0000", "none")
+
     call <SID>X("VertSplit", "666666", "000000", "none")
     call <SID>X("Folded", "ffd700", "000000", "bold")
     call <SID>X("FoldColumn", "d2b48c", "4d4d4d", "")
@@ -267,7 +273,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("StatusLine", "ffffff", "666666", "none")
     call <SID>X("StatusLineNC", "000000", "666666", "none")
     call <SID>X("Title", "cd5c5c", "", "")
-    call <SID>X("Visual", "6b8e23", "f0e68c", "reverse")
+    call <SID>X("Visual", "264f78", "f0e68c", "reverse")
 
     "VisualNOS
     call <SID>X("WarningMsg", "fa8072", "", "")
@@ -281,7 +287,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     " call <SID>X("PmenuThumb", "", "", "")
 
     " syntax highlighting groups
-    call <SID>X("Comment", "00ff00", "", "")
+    call <SID>X("Comment", "00cc7f", "", "")
     call <SID>X("Constant", "ffcc66", "", "")
     call <SID>X("Identifier", "99ff00", "", "none")
     call <SID>X("Statement", "6699ff", "", "none")
