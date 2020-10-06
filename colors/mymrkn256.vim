@@ -324,6 +324,9 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("IndentGuidesEven", "9999CC", "666666", "")
     " }}}
 
+    " coc.nvim
+    call <SID>X("CocHighlightText", "", "444444", "")
+
     " delete functions {{{
     delf <SID>X
     delf <SID>rgb
