@@ -259,7 +259,7 @@ if has("gui_running") || &t_Co == 88 || &t_Co == 256
     call <SID>X("DiffDelete", "262626", "ffffff", "none")
     call <SID>X("DiffText", "262626", "8b0000", "none")
 
-    call <SID>X("VertSplit", "666666", "000000", "none")
+    call <SID>X("VertSplit", "666666", "666666", "none")
     call <SID>X("Folded", "ffd700", "000000", "bold")
     call <SID>X("FoldColumn", "d2b48c", "4d4d4d", "")
     call <SID>X("LineNr", "666666", "", "none")
